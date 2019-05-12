@@ -1,0 +1,69 @@
+.navBar {
+    position:fixed;
+    margin-bottom: 20px;
+    display:flex;
+    align-items: flex-end;
+    height: 50px;
+    display: flex;
+    align-items:center;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.97);
+    top: 0px;
+    z-index: 1;
+    -webkit-box-shadow: 0px 10px 109px -48px rgba(225,232,227,0.59);
+    -moz-box-shadow: 0px 10px 109px -48px rgba(225,232,227,0.59);
+    box-shadow: 0px 10px 109px -48px rgba(225,232,227,0.59);
+}
+
+.brand {
+    font-size: 20px;   
+    display: flex;
+    flex: 1;
+    font-family: 'ubuntu Condensed';
+    color: #fff;
+    background-color: #292F36;
+    padding: 2px 5px;
+    border-radius: 10px;
+    margin-left: 20px;
+    justify-content: center;
+    text-decoration:none;
+}
+
+.linkList {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    height: 100%;
+    flex: 4;
+    justify-content: space-evenly;
+    margin: 0;
+    padding:0;
+}
+
+.NavLink {
+    display: flex;
+    text-decoration: none;
+    padding: 2px 20px 2px 20px;
+    color:#000;
+    font-size: 18px;
+    font-family: 'Ubuntu Condensed';
+    align-items: center;
+    width:120px;
+    text-align:center;
+    justify-content: center;
+
+}
+
+NavLink:hover {
+    /*background-color: rgba(66, 76, 85);
+    color:white;*/
+    cursor: pointer;
+
+}
+
+
+.space {
+    display:flex;
+    flex: 1;
+    margin-right: 20px; 
+}
